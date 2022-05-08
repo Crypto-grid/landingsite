@@ -1,23 +1,24 @@
-import React from "react";
+import {
+	faTwitter,
+	faMedium,
+	faDiscord
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FooterComponent = () => {
 	return (
-		<>
-			{/* container should be bottom left of page */}
-			<Container>
-				<h1>Crypto Grid</h1>
-				<h2>Game bio......</h2>
-				<div>
-					{/* <a href="https://medium.com/cryptogrid">
-                    <img src="./mediumLogo.png" className="mediumIcon" />
-                </a> */}
-					<SocialIcon network="twitter" bgColor="black" />
-					<SocialIcon network="medium" bgColor="black" />
-					<SocialIcon network="discord" bgColor="black" />
-				</div>
-			</Container>
-		</>
+		<div className="footer flex flex-row">
+			<a href="" target="_blank">
+				<FontAwesomeIcon icon={faTwitter} size="2x" />
+			</a>
+			<a href="" target="_blank">
+				<FontAwesomeIcon icon={faMedium} size="2x" />
+			</a>
+			<a href="" target="_blank">
+				<FontAwesomeIcon icon={faDiscord} size="2x" />
+			</a>
+		</div>
 	);
-};
+}
 
 export default FooterComponent;

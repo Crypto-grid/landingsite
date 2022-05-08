@@ -11,9 +11,6 @@ export default function NavComponent() {
 				<div className="navbar-end">
 					<ul className="menu menu-horizontal p-0">
 						<li>
-							<a href="#home">Guides</a>
-						</li>
-						<li>
 							<a href="#link">Guides</a>
 						</li>
 						<li>

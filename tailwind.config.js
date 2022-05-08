@@ -1,9 +1,14 @@
 module.exports = {
-	mode: 'jit',
-	
+	mode: "jit",
+
 	content: ["./src/**/*.{html,js,tsx}"],
 	theme: {
-	  extend: {},
+		extend: {},
 	},
-	plugins: [require('daisyui')],
-  }
+	plugins: [require("daisyui")],
+
+	daisyui: {
+		theme: ["light", "dark", "night"],
+		darkTheme: "night",
+	},
+};

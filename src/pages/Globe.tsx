@@ -1,4 +1,3 @@
-import React from "react";
 import NavComponent from '../components/Navbar';
 
 

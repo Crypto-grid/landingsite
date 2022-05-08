@@ -1,7 +1,5 @@
 import React from 'react'
-import {Container} from 'react-bootstrap';
 
-var { SocialIcon } = require('react-social-icons');
 const FooterComponent = () => {
   return (
     <>

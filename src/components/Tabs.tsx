@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, Tab } from 'react-bootstrap';
+// import { Tabs, Tab } from 'react-bootstrap';
 import MiningOs from '../pages/MiningOs';
 // import Tabs from 'react-bootstrap/Tabs'
 // window tabs to open other applications e.g. online store, internet search, maps, news, crypto prices
